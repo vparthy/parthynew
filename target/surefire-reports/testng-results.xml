@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Free CRM Automation suite" duration-ms="334274" started-at="2018-01-05T04:40:58Z" finished-at="2018-01-05T04:46:32Z">
+    <groups>
+    </groups>
+    <test name="Free CRM Test" duration-ms="334274" started-at="2018-01-05T04:40:58Z" finished-at="2018-01-05T04:46:32Z">
+      <class name="com.parthy.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.parthy.tests.HomePageTest@4157f54e]" name="setUp" is-config="true" duration-ms="27816" started-at="2018-01-05T10:11:09Z" finished-at="2018-01-05T10:11:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageTitletest()[pri:1, instance:com.parthy.tests.HomePageTest@4157f54e]" name="homePageTitletest" duration-ms="19" started-at="2018-01-05T10:11:37Z" finished-at="2018-01-05T10:11:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitletest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.parthy.tests.HomePageTest@4157f54e]" name="setUp" is-config="true" duration-ms="26666" started-at="2018-01-05T10:12:25Z" finished-at="2018-01-05T10:12:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verfiyUserNameTest()[pri:2, instance:com.parthy.tests.HomePageTest@4157f54e]" name="verfiyUserNameTest" duration-ms="5101" started-at="2018-01-05T10:12:52Z" finished-at="2018-01-05T10:12:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyUserNameTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.parthy.tests.HomePageTest@4157f54e]" name="setUp" is-config="true" duration-ms="30577" started-at="2018-01-05T10:15:51Z" finished-at="2018-01-05T10:16:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verfiyContactsLink()[pri:3, instance:com.parthy.tests.HomePageTest@4157f54e]" name="verfiyContactsLink" duration-ms="10177" started-at="2018-01-05T10:16:22Z" finished-at="2018-01-05T10:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyContactsLink -->
+      </class> <!-- com.parthy.tests.HomePageTest -->
+      <class name="com.parthy.tests.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.parthy.tests.ContactsPageTest@90f6bfd]" name="setUp" is-config="true" duration-ms="35119" started-at="2018-01-05T10:11:37Z" finished-at="2018-01-05T10:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactsLabel()[pri:1, instance:com.parthy.tests.ContactsPageTest@90f6bfd]" name="verifyContactsLabel" duration-ms="3044" started-at="2018-01-05T10:12:12Z" finished-at="2018-01-05T10:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLabel -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.parthy.tests.ContactsPageTest@90f6bfd]" name="setUp" is-config="true" duration-ms="35930" started-at="2018-01-05T10:12:57Z" finished-at="2018-01-05T10:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.parthy.tests.ContactsPageTest@90f6bfd]" name="verifyCreateNewContact" duration-ms="12103" started-at="2018-01-05T10:13:33Z" data-provider="getCRMTestData" finished-at="2018-01-05T10:13:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sudhakar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewContact -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.parthy.tests.ContactsPageTest@90f6bfd]" name="setUp" is-config="true" duration-ms="35800" started-at="2018-01-05T10:13:45Z" finished-at="2018-01-05T10:14:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.parthy.tests.ContactsPageTest@90f6bfd]" name="verifyCreateNewContact" duration-ms="11225" started-at="2018-01-05T10:14:21Z" data-provider="getCRMTestData" finished-at="2018-01-05T10:14:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kannan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[G]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[G]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewContact -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.parthy.tests.ContactsPageTest@90f6bfd]" name="setUp" is-config="true" duration-ms="39941" started-at="2018-01-05T10:14:32Z" finished-at="2018-01-05T10:15:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.parthy.tests.ContactsPageTest@90f6bfd]" name="verifyCreateNewContact" duration-ms="11185" started-at="2018-01-05T10:15:12Z" data-provider="getCRMTestData" finished-at="2018-01-05T10:15:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jayanthy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Flipkart]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewContact -->
+      </class> <!-- com.parthy.tests.ContactsPageTest -->
+      <class name="com.parthy.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.parthy.tests.LoginPageTest@327471b5]" name="setUp" is-config="true" duration-ms="10988" started-at="2018-01-05T10:10:58Z" finished-at="2018-01-05T10:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.parthy.tests.LoginPageTest@327471b5]" name="loginPageTitleTest" duration-ms="17" started-at="2018-01-05T10:11:09Z" finished-at="2018-01-05T10:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.parthy.tests.LoginPageTest@327471b5]" name="setUp" is-config="true" duration-ms="9917" started-at="2018-01-05T10:12:15Z" finished-at="2018-01-05T10:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="crmLogotest()[pri:2, instance:com.parthy.tests.LoginPageTest@327471b5]" name="crmLogotest" duration-ms="169" started-at="2018-01-05T10:12:25Z" finished-at="2018-01-05T10:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmLogotest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.parthy.tests.LoginPageTest@327471b5]" name="setUp" is-config="true" duration-ms="10158" started-at="2018-01-05T10:15:24Z" finished-at="2018-01-05T10:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.parthy.tests.LoginPageTest@327471b5]" name="loginTest" duration-ms="17662" started-at="2018-01-05T10:15:34Z" finished-at="2018-01-05T10:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.parthy.tests.LoginPageTest -->
+    </test> <!-- Free CRM Test -->
+  </suite> <!-- Free CRM Automation suite -->
+</testng-results>

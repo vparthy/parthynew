@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Free CRM Automation suite]">
+  <listeners>
+    <listener class-name="com.parthy.extentreport.ExtentReporterNG"/>
+  </listeners>
+  <test name="Free CRM Test(failed)">
+    <classes>
+      <class name="com.parthy.tests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verfiyContactsLink"/>
+          <include name="verfiyUserNameTest"/>
+        </methods>
+      </class> <!-- com.parthy.tests.HomePageTest -->
+      <class name="com.parthy.tests.ContactsPageTest">
+        <methods>
+          <include name="verifyContactsLabel"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.parthy.tests.ContactsPageTest -->
+    </classes>
+  </test> <!-- Free CRM Test(failed) -->
+</suite> <!-- Failed suite [Free CRM Automation suite] -->

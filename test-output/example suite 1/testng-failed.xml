@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [example suite 1]">
+  <test name="Regression suite 1(failed)">
+    <classes>
+      <class name="com.parthy.tests.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="crmLogotest"/>
+          <include name="loginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.parthy.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->
